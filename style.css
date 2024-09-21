@@ -45,9 +45,10 @@ img{
     text-shadow: 2px 2px white;
 }
 .leftFooter{
-    color: rgb(141, 51, 59);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
     position: relative;
-    top: 200px;
+    top: 180px;
 }
 .rightSide{
     display: flex;
