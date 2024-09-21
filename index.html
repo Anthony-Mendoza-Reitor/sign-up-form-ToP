@@ -53,13 +53,13 @@
                     <div class="item1">
                         <form>
                             <label for="user_password">PASSWORD</label>
-                            <input type="password" id="user_password" placeholder="8 Characters Minimun" minlength="8">
+                            <input type="password" id="user_password" placeholder="8 Characters Minimun" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="">
                         </form>
                     </div>
                     <div class="item2">
                         <form>
                             <label for="user_password_confirmation">CONFIRM PASSWORD</label>
-                            <input type="password" id="user_password_confirmation" placeholder="Re-enter password">
+                            <input type="password" id="user_password_confirmation" placeholder="Re-enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="">
                         </form>
                     </div>
                 </div>
