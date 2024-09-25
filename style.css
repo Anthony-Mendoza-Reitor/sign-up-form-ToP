@@ -58,7 +58,7 @@ img{
     top: 0px;
     bottom: 0px;
     width: 900px;
-    background-color: rgb(215, 241, 207);
+    background-color: rgb(228, 233, 226);
 }
 .quoteBlock{
     font-size: 24px;
@@ -66,7 +66,6 @@ img{
     padding-left: 24px;
     padding-right: 24px;
     font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.178);
     border-radius: 2px;
 }
 .formBlock{
